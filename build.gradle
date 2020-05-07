@@ -8,7 +8,11 @@ repositories {
     mavenCentral()
 }
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 5c585856758d48a326913435914d97196ef7aca7
 dependencies{
 
      implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -34,4 +38,12 @@ bootRun.environment([
 test.environment([
         "WELCOME_MESSAGE": "Hello from test",
 ])
+<<<<<<< HEAD
 
+=======
+=======
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+>>>>>>> 2353cde9717a04b35c73c9baaa1da2c5334bf0d8
+>>>>>>> 5c585856758d48a326913435914d97196ef7aca7

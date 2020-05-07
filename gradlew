@@ -82,6 +82,13 @@ esac
 
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2353cde9717a04b35c73c9baaa1da2c5334bf0d8
+>>>>>>> 5c585856758d48a326913435914d97196ef7aca7
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then
     if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
@@ -129,6 +136,13 @@ fi
 if [ "$cygwin" = "true" -o "$msys" = "true" ] ; then
     APP_HOME=`cygpath --path --mixed "$APP_HOME"`
     CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 2353cde9717a04b35c73c9baaa1da2c5334bf0d8
+>>>>>>> 5c585856758d48a326913435914d97196ef7aca7
     JAVACMD=`cygpath --unix "$JAVACMD"`
 
     # We build the pattern for arguments to be converted via cygpath

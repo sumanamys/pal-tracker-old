@@ -1,4 +1,5 @@
 applications:
+<<<<<<< HEAD
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   routes:
@@ -6,3 +7,11 @@ applications:
   env:
     WELCOME_MESSAGE: Hello from the review environment
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+=======
+  - name: pal-tracker
+    path: build/libs/pal-tracker.jar
+    random-route: true
+    env:
+      WELCOME_MESSAGE: Hello from Cloud Foundry
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+>>>>>>> 5c585856758d48a326913435914d97196ef7aca7
